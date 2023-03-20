@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+}
+
+.container {
+  margin: 2%;
+  padding: 5%;
+}
+
+.two-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color: black;
+  margin-top: 5%;
+}
+
+.button button {
+  background-color: rgba(128, 128, 128, 0.509);
+}
+
+.hover-focus {
+  color: rgba(68, 68, 68, 0.709);
+  margin-left: 18%;
+}
+
+.hover-focus button {
+  background-color: rgba(72, 72, 72, 0.55);
+}
+
+.button-variant-outline button {
+  border-color: rgb(3, 108, 255);
+  color: rgb(3, 108, 255);
+}
+
+.button-variant-outline-hover-focus {
+  color: rgba(68, 68, 68, 0.709);
+  margin-left: 10%;
+}
+
+.button-variant-outline-hover-focus button {
+  border-color: rgb(3, 108, 255);
+  color: rgb(3, 108, 255);
+  background-color: rgba(3, 108, 255, 0.279);
+}
+
+.button-variant-text button {
+  color: rgb(3, 108, 255);
+}
+
+.button-variant-text-hover-focus {
+  color: rgba(68, 68, 68, 0.709);
+  margin-left: 11.5%;
+}
+
+.button-variant-text-hover-focus button {
+  color: rgb(3, 108, 255);
+  background-color: rgba(3, 108, 255, 0.279);
+}
+
+.button-disabled-shadow button {
+  color: white;
+  background-color: rgb(34, 0, 223);
+}
+
+.button-disabled button {
+  background-color: rgba(128, 128, 128, 0.567);
+}
+
+.button-disabled-text {
+  margin-left: 15%;
+}
+
+.button-start-store button {
+  color: white;
+  background-color: rgb(3, 108, 255);
+}
+
+.material-icons {
+  padding: 5%;
+}
+
+.button-end-store button {
+  color: white;
+  background-color: rgb(3, 108, 255);
+}
+
+.button-end-store {
+  margin-left: 8%;
+}
+
+.button-icon-two {
+  display: flex;
+  flex-direction: row-reverse
+}
+
+.button-size-sm button {
+  width: 5%;
+  font-size: small;
+  color: white;
+  background-color: rgb(3, 108, 255);
+}
+
+.button-size-md {
+  margin-left: 8%;
+}
+
+.button-size-md button {
+  color: white;
+  background-color: rgb(3, 108, 255);
+}
+
+.button-size-lg {
+  margin-left: 8%;
+}
+
+.button-size-lg p {
+  margin-top: 8%;
+}
+
+.button-size-lg button {
+  width: 80%;
+  height: 45px;
+  font-size: larger;
+  color: white;
+  background-color: rgb(3, 108, 255);
+}
+
+.four-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  margin-top: 5%;
+  width: 80%;
+}
+
+.four-buttons div {
+  width: 20%;
+}
+
+.button-color-defaul button {
+  background-color: rgba(128, 128, 128, 0.509);
+}
+
+.button-color-primary button {
+  color: white;
+  background-color: rgb(3, 108, 255);
+}
+
+.button-color-secondary button {
+  color: white;
+  background-color: rgb(69, 69, 69);
+}
+
+.button-color-danger button {
+  color: white;
+  background-color: rgb(179, 48, 0);
+}
+
+.four-buttons-hover {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  color: rgba(68, 68, 68, 0.709);
+  margin-top: 5%;
+  width: 80%;
+}
+
+.four-buttons-hover div {
+  width: 20%;
+}
+
+.button-color-default-hover button {
+  background-color: rgba(72, 72, 72, 0.55);
+}
+
+.button-color-primary-hover button {
+  color: white;
+  background-color: rgb(0, 74, 176);
+  justify-content: end;
+}
+
+.button-color-secondary-hover button {
+  color: white;
+  background-color: rgb(36, 36, 36);
+}
+
+.button-color-danger-hover button {
+  color: white;
+  background-color: rgb(147, 39, 0);
+}
